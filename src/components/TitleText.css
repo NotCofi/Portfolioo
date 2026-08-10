@@ -1,4 +1,4 @@
-
+/* LAYOUT & CONTAINER */
 .HeroContainer {
   display: flex;
   justify-content: center;
@@ -10,7 +10,16 @@
   padding: 2rem;
 }
 
+.TitleText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: min(36rem, 100%);
+  box-sizing: border-box;
+}
 
+/* PROFILE CARD COMPONENT */
 .ProfileCardZone {
   display: flex;
   position: relative;
@@ -36,7 +45,7 @@
 }
 
 
-
+/* LOGO COMPONENT */
 .Logopic {
   display: flex;
   align-items: center;
@@ -55,7 +64,7 @@
 
 
 
-
+/* TEXT UTILITIES */
 .ProfileCardZone h1 {
   font-size: clamp(1.5rem, 13cqw, 2.2rem);
   font-weight: 800;
@@ -73,14 +82,7 @@
   font-size: clamp(1.5rem, 4vw, 2.2rem);
 }
 
-.TitleText {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  max-width: min(36rem, 100%);
-  box-sizing: border-box;
-}
+
 
 
 .Highlight {
@@ -88,7 +90,7 @@
   font-weight: bold;
 }
 
-
+/* RESPONSIVE MEDIA QUERIES */
 @media (max-width: 768px) {
   .HeroContainer {
     flex-direction: column;
