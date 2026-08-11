@@ -1,6 +1,6 @@
 import "./App.css";
-import TitleText from "./components/TitleText.jsx";
-import ProjectCard from "./components/ProjectCard.jsx";
+import TitleText from "./components/Title/TitleText.jsx";
+import ProjectCard from "./components/project/ProjectCard.jsx";
 
 function App() {
   return (

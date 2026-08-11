@@ -1,6 +1,6 @@
 import React from 'react';
 import './TitleText.css';
-import Logo from "./Logo.jsx";
+import Logo from "../Logo.jsx";
 
 const TitleText = () => {
     return (

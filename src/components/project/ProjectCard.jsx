@@ -1,4 +1,4 @@
-import multimodularpng_svg from '../assets/multimodularpng.svg';
+import multimodularpng_svg from '../../assets/multimodularpng.svg';
 import "./ProjectCard.css"
 
 function ProjectCard() {
