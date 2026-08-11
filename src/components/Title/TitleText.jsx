@@ -9,7 +9,7 @@ const TitleText = () => {
             <div className="ProfileCardZone">
                 <Logo />
                 <h1><span className="Highlight">N</span>iklas Rauhala</h1>
-                <h3>Learning everyday something new. However, one thing that I learn everyday that is not new, is my hatred for WordPress.</h3>
+                <h3>I used to tell myself, that I will only stick to backend but here we are. And, somehow, making a portfolio site on WordPress is harder than making one in an IDE.</h3>
             </div>
 
             <div className="TitleText">

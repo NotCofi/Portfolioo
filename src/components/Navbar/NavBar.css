@@ -1,34 +1,27 @@
 .navbarContainer {
-  position: relative;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  margin-inline: auto;
 
-  background-color: rgba(255, 255, 255, 0.03);
-  max-width: fit-content;
-  padding: 20px 24px;
-  border-radius: 15px;
+  place-content: center;
+  border-radius: 16px;
+  width: min-content;
+  padding: 0 20px;
 
-  gap: 1rem;
-  z-index: 1;
+  gap: 18px;
+  height: 48px;
+  position: relative;
+  overflow: visible;
+
+  background-color: rgba(255, 255, 255, 0.03)
 }
 
 .navLink {
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  transition: opacity 0.2s ease, transform 0.1s ease;
+  color: rgb(255, 255, 255)
 }
+
 
 .navLink:hover {
-  opacity: 0.7;
-
-}
-
-
-.navLink:active {
-  transform: scale(0.95);
+  color: rgba(167, 75, 255, 0.52)
 }
