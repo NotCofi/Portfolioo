@@ -18,10 +18,15 @@
 }
 
 .navLink {
-  color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
+
 }
 
 
 .navLink:hover {
   color: rgba(167, 75, 255, 0.52)
+}
+
+.navLink:active {
+  transform: scale(0.8);
 }

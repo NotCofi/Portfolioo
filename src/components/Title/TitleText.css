@@ -74,14 +74,14 @@
 
 .ProfileCardZone h3 {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  align-self: center;
   align-items: center;
-  text-align: center;
+  transform: translateY(-50px);
 
-
-  font-size: clamp(1rem, 4cqw, 1.2rem);
+  font-size: clamp(0.9rem, 2cqw, 0.5rem);
   font-weight: bold;
-  color: #898585;
+  color: #ffffff;
 }
 
 .TitleText h2 {
@@ -93,7 +93,7 @@
 
 .Highlight {
   color: #8c52ff;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 /* RESPONSIVE MEDIA QUERIES */
