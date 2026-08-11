@@ -1,22 +1,28 @@
-import Logo from "../Logo.jsx";
-import React, { useState } from "react";
+import { Home, Folder, Briefcase, Wrench, SquarePen } from 'lucide-react';
+import './NavBar.css';
 
-const
-    NavBar = () => {
-    const [isOpen, setIsOpen] = useState(false)
-        return (
-        <nav className="nav-container">
-            <div className="nav-logo">
-                <Logo />
-            </div>
+export default function Navbar() {
+  return (
+    <nav className="navBarContainer">
+      <a href="#home" className="navLink" aria-label="Home">
+        <Home size={24} strokeWidth={1.5} />
+      </a>
 
-            <ul className="nav-links">
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact"></a>contact</li>
-            </ul>
-        </nav>
-    );
-};
+      <a href="#folders" className="navLink" aria-label="Folders">
+        <Folder size={24} strokeWidth={1.5} />
+      </a>
 
-export default NavBar;
+      <a href="#portfolio" className="navLink" aria-label="Portfolio">
+        <Briefcase size={24} strokeWidth={1.5} />
+      </a>
+
+      <a href="#tools" className="navLink" aria-label="Tools">
+        <Wrench size={24} strokeWidth={1.5} />
+      </a>
+
+      <a href="#edit" className="navLink" aria-label="Edit">
+        <SquarePen size={24} strokeWidth={1.5} />
+      </a>
+    </nav>
+  );
+}
