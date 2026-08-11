@@ -30,7 +30,7 @@
   border: 1px solid #9c9c9c;
   overflow: hidden;
 
-  background: linear-gradient(to top, rgb(152 64 239 / 0.65) 0%, transparent 68%),
+  background: linear-gradient(to top, rgb(152 64 239 / 0.26) 0%, transparent 80%),
                           rgb(0 0 0 / 0.62);
   border-radius: 9px;
   width: clamp(16rem, 22vw, 22rem);
