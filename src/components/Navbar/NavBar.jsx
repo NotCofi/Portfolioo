@@ -23,10 +23,6 @@ export default function Navbar() {
       <a href="#tools" className="navLink" aria-label="Tools">
         <Wrench size={24} strokeWidth={1.5} />
       </a>
-
-      <a href="#edit" className="navLink" aria-label="Edit">
-        <SquarePen size={24} strokeWidth={1.5} />
-      </a>
     </nav>
   );
 }

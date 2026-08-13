@@ -4,7 +4,7 @@ import Logo from "../Logo.jsx";
 
 const TitleText = () => {
     return (
-        <section className="HeroContainer">
+        <div className="HeroContainer">
 
             <div className="ProfileCardZone">
                 <Logo />
@@ -15,7 +15,7 @@ const TitleText = () => {
             <div className="TitleText">
                 <h2>Learning to be Front End & Backend Developer</h2>
             </div>
-        </section>
+        </div>
     );
 }
 

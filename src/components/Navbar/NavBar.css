@@ -2,19 +2,22 @@
   display: flex;
   align-items: center;
   flex-direction: row;
+
   margin-inline: auto;
 
   place-content: center;
   border-radius: 16px;
   width: min-content;
-  padding: 0 20px;
-
-  gap: 18px;
+  padding: 0 30px;
+  top: 58px;
   height: 48px;
+
+  gap: 20px;
   position: relative;
   overflow: visible;
 
-  background-color: rgba(255, 255, 255, 0.03)
+  background-color: rgba(255, 255, 255, 0.03);
+
 }
 
 .navLink {
@@ -24,7 +27,8 @@
 
 
 .navLink:hover {
-  color: rgba(167, 75, 255, 0.52)
+  color: rgb(167 75 255);
+  transform: scale(1.2)
 }
 
 .navLink:active {
