@@ -1,8 +1,8 @@
 import React from 'react';
-import './TitleText.css';
+import './HeroSection.css';
 import Logo from "../Logo.jsx";
 
-const TitleText = () => {
+const HeroSection = ({children}) => {
     return (
         <div className="HeroContainer">
 
@@ -15,8 +15,12 @@ const TitleText = () => {
             <div className="TitleText">
                 <h2>Learning to be Front End & Backend Developer</h2>
             </div>
+
+            <div className="ProjectsWarpper">
+                {children}
+            </div>
         </div>
     );
 }
 
-export default TitleText;
+export default HeroSection;

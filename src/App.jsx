@@ -1,5 +1,5 @@
 import "./App.css";
-import TitleText from "./components/Title/TitleText.jsx";
+import HeroSection from "./components/Title/HeroSection.jsx";
 import ProjectCard from "./components/project/ProjectCard.jsx";
 import NavBar from "./components/NavBar/NavBar.jsx";
 
@@ -10,22 +10,16 @@ function App() {
       <header className="site-header" />
 
       <main className="site-main">
-          <section className="NavigationBar">
+          <nav className="NavigationBar">
           <NavBar />
-      </section>
+      </nav>
 
 
-        <section className="hero reveal-section">
-          <TitleText />
-        </section>
+       <HeroSection>
+           <ProjectCard />
+       </HeroSection>
 
 
-
-        <section className="projects reveal-section reveal-section--delayed">
-          <div className="projects-grid">
-            <ProjectCard />
-          </div>
-        </section>
       </main>
 
       <footer className="site-footer" />
