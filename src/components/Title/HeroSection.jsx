@@ -14,11 +14,9 @@ const HeroSection = ({children}) => {
 
             <div className="TitleText">
                 <h2>Learning to be Front End & Backend Developer</h2>
+                   {children}
             </div>
 
-            <div className="ProjectsWarpper">
-                {children}
-            </div>
         </div>
     );
 }
