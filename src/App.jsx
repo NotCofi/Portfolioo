@@ -2,21 +2,25 @@ import "./App.css";
 import HeroSection from "./components/Title/HeroSection.jsx";
 import ProjectCard from "./components/project/ProjectCard.jsx";
 import NavBar from "./components/NavBar/NavBar.jsx";
+import HorizontalScrollContainer from "./components/HorizontalScrollContainer/HorizontalScrollContainer.jsx";
 
 function App() {
+
   return (
     <>
 
-      <header className="site-header" />
-
-      <main className="site-main">
-          <nav className="NavigationBar">
+      <header className="site-header"></header>
+      <nav className="NavigationBar">
           <NavBar />
       </nav>
 
+      <main className="site-main">
+
 
        <HeroSection>
-           <ProjectCard />
+        <HorizontalScrollContainer>
+              <ProjectCard />
+          </ HorizontalScrollContainer>
        </HeroSection>
 
 

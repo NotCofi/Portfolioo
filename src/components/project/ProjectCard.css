@@ -18,6 +18,8 @@
   gap: clamp(1rem, 3vw, 1.5rem);
   padding: clamp(1.75rem, 5vw, 2.5rem) clamp(1.25rem, 4vw, 1.5rem);
   background-color: rgba(7, 7, 7, 0.19);
+
+  white-space: normal;
 }
 
 /* --- Icon Section --- */

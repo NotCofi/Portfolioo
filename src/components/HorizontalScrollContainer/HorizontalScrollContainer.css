@@ -1,0 +1,19 @@
+.horizontal-scroll-container {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 10px 0;
+    gap: 20px;
+    scroll-behavior: smooth;
+
+
+    background-color: #000000;
+}
+
+.horizontal-scroll-container > .card {
+    flex: 0 0 280px;
+    width: 280px;
+    max-width: 100%;
+}
+
