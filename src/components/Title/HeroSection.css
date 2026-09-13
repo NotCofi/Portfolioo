@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: flex-start;
   gap: clamp(2rem, 5vw, 6rem);
-  min-height: 100vh;
+  min-height: 500vh;
   width: 100%;
   box-sizing: border-box;
   padding: 1.5rem;
@@ -22,7 +22,9 @@
 /* PROFILE CARD COMPONENT */
 .ProfileCardZone {
   display: flex;
-  position: relative;
+  position: sticky;
+  z-index: 100;
+  top: 2.5rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -127,3 +129,29 @@
 
   }
 }
+
+/* RESPONSIVE MEDIA QUERIES */
+@media (max-width: 768px) {
+  .HeroContainer {
+    flex-direction: column;
+    align-items: center;
+    min-height: auto;
+  }
+
+  .ProfileCardZone {
+    position: static;
+    top: auto;
+    width: 100%;
+    max-width: 28rem;
+  }
+
+  .TitleText {
+    align-items: center;
+    order: 2;
+  }
+
+  .TitleText p {
+    text-align: center;
+  }
+}
+
