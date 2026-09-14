@@ -3,12 +3,13 @@
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
-    padding: 10px 0;
-    gap: 20px;
+    padding: 2rem 1rem;
+    gap: 2rem;
     scroll-behavior: smooth;
+    border-radius: 20px;
 
 
-    background-color: #000000;
+    background-color: rgb(18 18 18 / 1);
 }
 
 .horizontal-scroll-container > .card {
