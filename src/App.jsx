@@ -3,14 +3,18 @@ import HeroSection from "./components/Title/HeroSection.jsx";
 import ProjectCard from "./components/project/ProjectCard.jsx";
 import NavBar from "./components/NavBar/NavBar.jsx";
 import HorizontalScrollContainer from "./components/HorizontalScrollContainer/HorizontalScrollContainer.jsx";
+import CrackedBackground from "./components/CrackedBackground/CrackedBackground.jsx";
 
 function App() {
 
   return (
     <>
+<CrackedBackground />
 
       <header className="site-header"></header>
-      <nav className="NavigationBar">
+
+
+    <nav className="NavigationBar">
           <NavBar />
       </nav>
 

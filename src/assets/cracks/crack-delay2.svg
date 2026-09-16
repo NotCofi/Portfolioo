@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <style>path { stroke: rgb(183, 0, 255); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; fill: none; }</style>
+  <path d="M 220,480 L 180,350 L 80,310" />
+  <path d="M 380,150 L 320,50 L 250,0" />
+  <path d="M 490,420 L 330,400 L 220,480" />
+  <path d="M 520,600 L 550,460 L 490,420" />
+  <path d="M 780,460 L 740,610 L 910,620" />
+  <path d="M 830,370 L 990,340 L 1080,420 L 1080,540" />
+  <path d="M 1020,680 L 980,820 L 1110,870 L 1210,890" />
+  <path d="M 1480,470 L 1610,430 L 1740,490 L 1740,640" />
+  <path d="M 1550,260 L 1640,380 L 1610,430" />
+  <path d="M 1440,730 L 1600,760 L 1740,640" />
+  <path d="M 1510,880 L 1560,1010 L 1690,1080" />
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <style>path { stroke: rgb(183, 0, 255); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; fill: none; }</style>
+  <path d="M 200,0 L 220,120 L 180,280 L 250,420 L 190,600" />
+  <path d="M 450,0 L 410,180 L 480,350 L 400,520 L 430,600" />
+  <path d="M 0,300 L 150,280 L 320,340 L 480,350 L 600,310" />
+</svg>
