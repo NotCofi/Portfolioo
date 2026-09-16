@@ -1,4 +1,5 @@
 .horizontal-scroll-container {
+    position: relative;
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
@@ -10,6 +11,11 @@
 
 
     background-color: rgb(18 18 18 / 1);
+    background-clip: padding-box;
+
+    border: 2px solid transparent;
+
+    z-index: 1;
 }
 
 .horizontal-scroll-container > .card {
@@ -18,3 +24,30 @@
     max-width: 100%;
 }
 
+
+.neon-glow-wrapper {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    border-radius: 20px;
+}
+
+.neon-glow-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: -1;
+    border-radius: 20px;
+    pointer-events: none;
+
+    background: linear-gradient(90deg, transparent 0%, #830183 50%, transparent 100%);
+    background-size: 300% 100%;
+
+    filter: blur(20px);
+    animation: neon-rotate 6s linear infinite;
+}
+
+@keyframes neon-rotate {
+    0% { background-position: 0 0; }
+    100% { background-position: 300% 0; }
+}

@@ -29,10 +29,14 @@ const HorizontalScrollContainer = ({ children }) => {
   }, []);
 
   return (
+
+  <div className="neon-glow-wrapper">
     <div className="horizontal-scroll-container" ref={scrollContainerRef}>
       {children}
     </div>
+  </div>
   );
+
 };
 
 export default HorizontalScrollContainer;
