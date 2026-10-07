@@ -2,7 +2,6 @@ import Home from 'lucide-react/dist/esm/icons/home';
 import Folder from 'lucide-react/dist/esm/icons/folder';
 import Briefcase from 'lucide-react/dist/esm/icons/briefcase';
 import Wrench from 'lucide-react/dist/esm/icons/wrench';
-import SquarePen from 'lucide-react/dist/esm/icons/square-pen';
 import './NavBar.css';
 
 export default function Navbar() {
